@@ -30,18 +30,18 @@ Cylon.robot({
         leapmotion: { driver: "leapmotion", connection: "leapmotion" }
     },
 
-    work: function (my) {    
+    work: function (my) {
         my.keyboard.on("right", function () {
-            my.sphero.roll(60, Math.floor(Math.random() * 360));
+            my.sphero.roll(60, 270);
         });
         my.keyboard.on("left", function () {
-            my.sphero.roll(60, Math.floor(Math.random() * 360));
+            my.sphero.roll(60, 90);
         });
         my.keyboard.on("up", function () {
-            my.sphero.roll(60, Math.floor(Math.random() * 360));
+            my.sphero.roll(60, 0);
         });
         my.keyboard.on("down", function () {
-            my.sphero.roll(60, Math.floor(Math.random() * 360));
+            my.sphero.roll(60, 180);
         });
     }
 }).start();
