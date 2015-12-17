@@ -28,6 +28,7 @@
     "cylon-i2c": "^0.23.0",
     "cylon-keyboard": "^0.16.0",
     "cylon-leapmotion": "^0.20.0",
-    "cylon-sphero": "^0.23.0"
+    "cylon-sphero": "^0.23.0",
+    "victor": "^1.1.0"
   }
 }
